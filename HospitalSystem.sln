@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSystem.Domain", "HospitalSystem.Domain\HospitalSystem.Domain.csproj", "{2B5F6414-C30F-4603-AB16-469ED10DD2C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalSystem.Domain", "HospitalSystem.Domain\HospitalSystem.Domain.csproj", "{2B5F6414-C30F-4603-AB16-469ED10DD2C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSystem.Application", "HospitalSystem.Application\HospitalSystem.Application.csproj", "{5A65AAE1-288B-4864-8581-B375FC662796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalSystem.Application", "HospitalSystem.Application\HospitalSystem.Application.csproj", "{5A65AAE1-288B-4864-8581-B375FC662796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSystem.Context", "HospitalSystem.Context\HospitalSystem.Context.csproj", "{8AED771E-49BD-443E-949D-36F9C98A2162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5A65AAE1-288B-4864-8581-B375FC662796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A65AAE1-288B-4864-8581-B375FC662796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A65AAE1-288B-4864-8581-B375FC662796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AED771E-49BD-443E-949D-36F9C98A2162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AED771E-49BD-443E-949D-36F9C98A2162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AED771E-49BD-443E-949D-36F9C98A2162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AED771E-49BD-443E-949D-36F9C98A2162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

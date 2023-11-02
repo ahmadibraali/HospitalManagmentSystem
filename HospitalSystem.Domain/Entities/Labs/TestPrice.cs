@@ -13,6 +13,6 @@ namespace HospitalSystem.Domain.Entities.Labs
         public Bill Bill { get; set; }
 
         public string TestCode { get; set; }
-        public decimal TestPrice { get; set; }
+        public decimal TestCost { get; set; }
     }
 }
